@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useRef } from 'react';
+import { useEffect, useState, useRef } from 'react';
 import { GoogleGenerativeAI } from '@google/generative-ai';
 
 // import { CiMicrophoneOn } from 'react-icons/ci';
