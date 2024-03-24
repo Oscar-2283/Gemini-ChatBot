@@ -4,7 +4,7 @@ import ChatRoom from './App.tsx'
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
-
+  <React.StrictMode>
     <ChatRoom />
-
+  </React.StrictMode>,
 )
