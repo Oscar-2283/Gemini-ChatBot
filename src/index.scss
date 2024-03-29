@@ -24,10 +24,10 @@
 }
 
 .scrollbar {
-  overflow-y: scroll;
+  overflow-y: auto;
   margin-bottom: 50px;
   width: 100%;
-  max-height: 600px;
+  max-height: calc(100vh - 200px);
 }
 
 .scrollbar::-webkit-scrollbar {
@@ -80,4 +80,31 @@ input[type="text"] {
 
 .user , .chatbot{
   padding:0 44px 40px 0
+}
+
+.user-message {
+  div{
+    display: flex;
+    gap: 20px;
+    flex-direction: row-reverse;
+  }
+  .message {
+    background: #626f7d;
+    border-radius: 10px;
+    padding: 10px 20px;
+    word-break: break-all;
+  }
+}
+
+.bot-message {
+  div {
+    display: flex;
+    gap: 20px;
+  }
+  .message {
+    background: #626f7d;
+    border-radius: 10px;
+    padding: 10px 20px;
+    word-break: break-all;
+  }
 }
